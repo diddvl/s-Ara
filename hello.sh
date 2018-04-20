@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo hElLo
-cat !$ > result.txt
+cat `echo !$` > result.txt
