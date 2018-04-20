@@ -1,4 +1,6 @@
 #!/bin/sh
 
 echo hElLo
-echo $? > result.txt
+if [ $? == 0 ]; then
+  touch result.txt
+fi
